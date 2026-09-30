@@ -1,0 +1,22 @@
+{
+  "name": "asana-playwright-evaluation",
+  "version": "1.0.0",
+  "description": "Data-driven TypeScript Playwright evaluation for the Asana-like demo board",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "1.51.1",
+    "@types/node": "22.20.4",
+    "typescript": "5.8.3"
+  },
+  "private": true
+}
